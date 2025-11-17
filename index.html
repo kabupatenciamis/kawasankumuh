@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>SIRUCI — Dashboard Rutilahu</title>
+  <title>SIRNA KUKUMIS — Dashboard Rutilahu di Kawasan Kumuh</title>
 
   <!-- Libraries -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -192,8 +192,8 @@
     <div class="sidebar-header">
       <img src="https://github.com/kabupatenciamis/rutilahu/blob/main/Lambang_Kabupaten_Ciamis.png?raw=true" class="header-logo" alt="Logo">
       <div>
-        <div class="brand">SIRUCI</div>
-        <div class="brand-subtext">Dashboard Rutilahu</div>
+        <div class="brand">SIRNA KUKUMIS</div>
+        <div class="brand-subtext">Dashboard Rutilahu di Kawasan Kumuh</div>
       </div>
     </div>
 
@@ -221,7 +221,7 @@
     <header class="dash-header">
       <div>
         <div class="title">Data Tepat, Bantuan Cepat, Ciamis Hebat</div>
-        <div class="text-muted" style="font-size:0.88rem;">Sistem Informasi Rumah Tidak Layak Huni Kabupaten Ciamis (SIRUCI)</div>
+        <div class="text-muted" style="font-size:0.88rem;">Sistem Informasi Rumah Tidak Layak Huni di Kawasan Kumuh Kabupaten Ciamis (SIRNA KUKUMIS)</div>
       </div>
       <img src="https://github.com/kabupatenciamis/rutilahu/blob/main/PRKPLH.png?raw=true" class="logo-sm" alt="logo">
     </header>
@@ -265,7 +265,7 @@
 
     <!-- Analisis grafik -->
     <div id="analisis-grafik-content" class="content-group" style="display:none;">
-      <h5 class="fw-bold mb-3" style="font-size:1.05rem;">Analisis Data Rutilahu</h5>
+      <h5 class="fw-bold mb-3" style="font-size:1.05rem;">Analisis Data Rutilahu Di Kawasan Kumuh</h5>
 
       <div class="charts-row mb-3">
         <div class="card chart-card">
@@ -308,7 +308,7 @@
     <!-- Data table -->
     <div id="data-tabel-content" class="content-group" style="display:none;">
       <div class="card p-4 mb-4">
-        <h5 class="card-title fw-bold" style="font-size:1.08rem;">Tabel Data Rutilahu</h5>
+        <h5 class="card-title fw-bold" style="font-size:1.08rem;">Tabel Data Rutilahu di Kawasan Kumuh</h5>
 
         <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
           <div class="input-group" style="max-width:300px;">
@@ -378,7 +378,7 @@
     <!-- Map -->
     <div id="peta-sebaran-content" class="content-group" style="display:none;">
       <div class="card p-4 mb-4">
-        <h5 class="card-title fw-bold" style="font-size:1.08rem;">Peta Sebaran Rutilahu</h5>
+        <h5 class="card-title fw-bold" style="font-size:1.08rem;">Peta Sebaran Rutilahu di Kawasan Kumuh</h5>
         <div class="text-muted" style="font-size:0.9rem;margin-bottom:12px;">Klik peta untuk menyimpan koordinat ke baris terpilih (Admin)</div>
         <div id="map"></div>
       </div>
@@ -438,13 +438,14 @@
     const DEFAULT_ZOOM = 10;
 
     const firebaseConfig = {
-      apiKey: "AIzaSyCSdubntMjMsOFIHNl-z9f6GTnBEJsz8qk",
-      authDomain: "rutilahu-ciamis.firebaseapp.com",
-      projectId: "rutilahu-ciamis",
-      storageBucket: "rutilahu-ciamis.appspot.com",
-      messagingSenderId: "785824428340",
-      appId: "1:785824428340:web:aec44a0b8307d7ed247561",
-      databaseURL: "https://rutilahu-ciamis-default-rtdb.firebaseio.com/"
+      apiKey: "AIzaSyCVx5fOJPw3nJa7EVjj97IKtRv6PST7MXs",
+  authDomain: "kawasan-kumuh.firebaseapp.com",
+  databaseURL: "https://kawasan-kumuh-default-rtdb.firebaseio.com",
+  projectId: "kawasan-kumuh",
+  storageBucket: "kawasan-kumuh.firebasestorage.app",
+  messagingSenderId: "1018340781303",
+  appId: "1:1018340781303:web:4ac235d3c239af66ee37f2",
+      databaseURL: "https://kawasan-kumuh-default-rtdb.firebaseio.com/"
     };
     firebase.initializeApp(firebaseConfig);
     const auth = firebase.auth();
